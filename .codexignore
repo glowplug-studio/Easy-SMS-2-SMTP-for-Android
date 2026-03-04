@@ -1,0 +1,38 @@
+# Keep Codex focused on source, not generated/binary artifacts
+.gradle/
+build/
+**/build/
+.idea/
+
+# Large/binary assets and outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.jar
+*.so
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+*.zip
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Local and sensitive files
+local.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+
+# Caches / reports
+*.log
+app/build/reports/

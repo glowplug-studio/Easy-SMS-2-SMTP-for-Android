@@ -1,0 +1,33 @@
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# IDE
+.idea/
+*.iml
+
+# Local SDK / machine config
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signing / secrets
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+.env
+.env.*
+
+# Logs / reports
+*.log
+captures/
+
+# Android Studio temp
+.externalNativeBuild/
+.cxx/
